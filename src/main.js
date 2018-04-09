@@ -83,7 +83,7 @@ function updateProps($el, newNode, oldNode) {
     let props = Object.keys(newProps).concat(Object.keys(oldProps));
 
     props.forEach(p => {
-        if (!newProps[p]) {
+        if (!newProps[p] && newProps[p] !== 0) {
             removeProp($el, p, oldProps[p]);
         } else if (!oldProps[p] || (newProps[p] !== oldProps[p] && typeof oldProps[p] !== 'function')) {
             setProp($el, p, newProps[p])
