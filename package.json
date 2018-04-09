@@ -1,0 +1,15 @@
+{
+  "name": "virtud",
+  "version": "1.0.0",
+  "description": "Hackish, reactive, component-oriented ui for the web.",
+  "main": "dist/mian.js",
+  "module": "src/main.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "Alejo Rodriguez <a.rodsott@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.57.1"
+  }
+}
