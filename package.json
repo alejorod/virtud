@@ -1,8 +1,12 @@
 {
   "name": "virtud",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hackish, reactive, component-oriented ui for the web.",
-  "keywords": ["reactive", "virtual", "view"],
+  "keywords": [
+    "reactive",
+    "virtual",
+    "view"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alejorod/virtud.git"
