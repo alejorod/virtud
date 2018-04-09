@@ -234,5 +234,6 @@ export const core = {
 
 export default {
     component,
-    tree
+    tree,
+    core
 };
